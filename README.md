@@ -11,4 +11,5 @@ git clone https://github.com/LeadSeason/get.cheeseburger.pw
 cd get.cheeseburger.pw/
 sudo docker-compose up -d
 ```
+go to [http://localhost:8080/](http://localhost:8080/)  
 Profit??
