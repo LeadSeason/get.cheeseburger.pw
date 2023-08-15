@@ -55,7 +55,7 @@ server.get(`/data`, async (req, res) => {
         ...ipInfo,
         agent: req.headers[`user-agent`],
         acceptLang: req.headers[`accept-language`],
-        map: `https://tyler-demo.herokuapp.com/?lat=${ipInfo.lat}&lon=${ipInfo.lon}&width=500&height=500&zoom=10`
+        map: `/img.png`
     }
 
     res.send(ipInfo);
