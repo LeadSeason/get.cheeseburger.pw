@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  cheeseburger:
+    build: .
+    container_name: cheeseburger
+    restart: unless-stopped
+    ports:
+      - 8080:8080
+    environment:
+      - NODE_ENV=production
