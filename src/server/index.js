@@ -4,8 +4,8 @@ const { resolve } = require(`node:path`);
 const { URL } = require(`node:url`);
 const { request } = require(`undici`);
 
-const HOST = `127.0.0.1`;
-const PORT = 4000;
+const HOST = `0.0.0.0`;
+const PORT = 8080;
 
 const server = fastify();
 
